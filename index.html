@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prachi Devkar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+
+</head>
+<body> <!-- Header with Image --> <header> <nav class="navbar"> <div class="logo">Prachi Devkar</div> <ul class="nav-links"> <li><a href="#home">Home</a></li> <li><a href="#about">About</a></li> <li><a href="#technologies">Technologies</a></li> <li><a href="#achievements">Achievements</a></li> <li><a href="#projects">Projects</a></li> <li><a href="#testimonials">Testimonials</a></li> <li><a href="#contact">Contact</a></li> </ul> <!-- <img src="images/profile.jpg" alt="Prachi Profile" class="top-profile" /> --> </nav> </header> <!-- Hero Section --> <section id="home" class="hero"> 
+  <div class="hero-container">
+  <!-- Left Side: Text Content -->
+  <div class="hero-content">
+    <h1>
+      <span class="typewriter">Hello, I am</span>
+      <span class="fade-in-name"> Prachi Devkar</span>
+    </h1>
+
+    <!-- Role animation -->
+    <div class="animated-title-container">
+      <span class="role show">Software Engineer</span>
+      <span class="role">Tech Enthusiast</span>
+      <span class="role">Full Stack Developer</span>
+    </div>
+
+ <p>Passionate about creating thoughtful, scalable, and user-friendly web applications.</p> <blockquote> “Inspired by logic, driven by curiosity, refined by discipline, and grounded in simplicity,
+
+  I turn clean code into elegant solutions.” </blockquote> <a href="#contact" class="btn">Connect With Me</a> </div>
+
+
+    <!-- Right Side: Profile Image -->
+    <div class="hero-image">
+      <img src="images/profile.jpg" alt="Prachi Devkar">
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- About -->
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about-card">
+    <p>
+      I love crafting <strong>efficient</strong> and 
+      <strong>intuitive</strong> web applications.<br><br>
+      “Inspired by logic, driven by curiosity, refined by discipline, 
+      and grounded in simplicity — I turn clean code into 
+      <strong>elegant solutions</strong>.”<br><br>
+      With a passion for <strong>continuous learning</strong>, I focus on 
+      transforming challenges into impactful digital solutions.
+    </p>
+  </div>
+</section>
+
+
+
+<section id="technologies" class="section">
+  <h2>Technologies</h2>
+  <div class="tech-grid">
+    <div class="tech-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Logo">
+      <span>Java</span>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Logo">
+      <span>HTML</span>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Logo">
+      <span>CSS</span>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo">
+      <span>JavaScript</span>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo">
+      <span>React</span>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js Logo">
+      <span>Node.js</span>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo">
+      <span>MongoDB</span>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL Logo">
+      <span>MySQL</span>
+    </div>
+    <div class="tech-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo">
+      <span>Git & GitHub</span>
+    </div>
+    <!-- Postman -->
+    <div class="tech-item">
+      <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman Logo">
+      <span>Postman</span>
+    </div>
+    <!-- Software Engineering -->
+    <div class="tech-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/906/906334.png" alt="Software Engineering Icon">
+      <span>Software Engineering</span>
+    </div>
+    <!-- Software Testing -->
+    <div class="tech-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" alt="Testing Icon">
+      <span>Software Testing</span>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Scholastic Eminence -->
+<!--  
+<section id="eminence" class="section">
+  <h2>Scholarly Achievement</h2>
+  <div class="eminence-list">
+    <div class="eminence-card" onclick="showEminence(0)">
+      <p>University Rankers Poster</p>
+    </div>
+    <div class="eminence-card" onclick="showEminence(1)">
+      <p>Top SGPA Holders</p>
+    </div>
+    <div class="eminence-card" onclick="showEminence(2)">
+      <p>Academic Distinction</p>
+    </div>
+  </div>
+</section>
+
+<!-- Eminence Modal -->
+<!-- <div id="eminence-display" class="hidden">
+  <span class="close" onclick="closeEminence()">&times;</span>
+  <button class="nav prev" onclick="prevEminence()">&#10094;</button>
+  <img id="eminence-image" alt="Scholastic Eminence Image">
+  <button class="nav next" onclick="nextEminence()">&#10095;</button>
+</div> --> -->
+
+<section id="scholarly-eminence" class="section">
+  <h2>Scholarly Achievement 🎓</h2>
+  <div class="eminence-container">
+    <div class="eminence-card" onclick="openEminenceGallery()">
+      <p>✨ Click Here to View</p>
+    </div>
+  </div>
+
+  <!-- Hidden modal/gallery -->
+  <div id="eminence-modal" class="eminence-modal">
+    <span class="close" onclick="closeEminenceGallery()">&times;</span>
+    <img id="eminence-image" src="images/poster1.jpg" alt="Scholarly Eminence">
+    <div class="eminence-nav">
+      <button onclick="prevEminence()">⟨</button>
+      <button onclick="nextEminence()">⟩</button>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Achievements (Slider) -->
+  <!-- <section id="achievements" class="section">
+    <h2>Achievements</h2>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="D:\Portfolio\images\achievement1.jpg" alt="Certificate 1"><p>Cloud Computing Internship</p></div>
+        <div class="swiper-slide"><img src="D:\Portfolio\images\achievemnet2.jpg" alt="Certificate 2"><p>Java Logic Course</p></div>
+        <div class="swiper-slide"><img src="D:\Portfolio\images\achievement3.jpg" alt="Certificate 3"><p>Web Dev Masterclass</p></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section> -->
+
+<section id="achievements" class="achievements">
+  <h2>Achievements 🎖️</h2>
+  <div class="achievement-list">
+    <div class="achievement" onclick="showAchievement('images/achievement1.jpg')">
+      <p>University Rank in Sem 3</p>
+    </div>
+    <div class="achievement" onclick="showAchievement('images/achievemnet2.jpg')">
+      <p>University Rank in Sem 4</p>
+    </div>
+    <div class="achievement" onclick="showAchievement('images/achievement3.jpg')">
+      <p>University Rank in Sem 5</p>
+    </div>
+    <div class="achievement" onclick="showAchievement('images/achievement3.jpg')">
+      <p>University Rank in Sem 6</p>
+    </div>
+    <div class="achievement" onclick="showAchievement('images/achievement4.jpg')">
+      <p>Secretary, IEI Student Chapter – Appreciation Letter Received</p>
+    </div>
+    <div class="achievement" onclick="showAchievement('images/CodeChefBadge (7).png')">
+      <p>CodeChef Diamond Badge</p>
+    </div>
+    <div class="achievement" onclick="showAchievement('images/CodeChefBadge (6).png')">
+      <p>CodeChef Gold Badge</p>
+    </div>
+    <div class="achievement" onclick="showAchievement('images/hakerrank.png')">
+      <p>Hackerrank Badges</p>
+    </div>
+
+
+
+  </div>
+</section>
+
+<!-- Achievement Modal (Outside .achievement-list) -->
+<!-- <div id="achievement-display" class="hidden">
+  <span class="close" onclick="closeImage()">&times;</span>
+  <img id="achievement-image" alt="Achievement Image">
+</div> -->
+<!-- Achievement Modal (Outside .achievement-list) -->
+<div id="achievement-display" class="hidden">
+  <div class="modal-content">
+    <span class="close" onclick="closeImage()">&times;</span>
+    <img id="achievement-image" alt="Achievement Image">
+  </div>
+</div>
+
+
+
+
+
+
+  <!-- Projects -->
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    
+    <div class="project-card" id="grievance-project">
+      <h3>Grievance Redressal System</h3>
+      <p>Smart portal to simplify and automate college grievance handling.</p>
+    </div>
+
+   <div class="project-card" id="approval-project">
+  <h3>Project Approval System</h3>
+  <p>Streamlines academic project management by digitizing submissions, reviews, and approvals with role-based access and real-time tracking.</p>
+
+</div>
+
+
+    <div class="project-card">
+      <h3>Personal Portfolio</h3>
+      <p>Responsive personal portfolio website showcasing achievements, projects, and technical expertise.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Smart Hostel Administration & Management System</h3>
+      <p>Digital solution to streamline hostel allocation, attendance, and overall administration.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Project Modal -->
+<div id="project-modal" class="modal1">
+  <div class="modal-content1">
+    <span class="close-btn">&times;</span>
+    <h2>Grievance Redressal System</h2>
+    <div class="modal-video">
+  <iframe id="grievance-video" width="100%" height="400" ></iframe>
+</div>
+
+
+     <p><strong>Fostering a supportive & transparent campus environment 🤝📢</strong></p>
+      <ul>
+      <li>✅ Grievance submission for students, faculty & staff</li>
+      <li>✅ Real-time status tracking with email updates</li>
+      <li>✅ Automatic PDF report & notice generation</li>
+      <li>✅ Centralized dashboard with role-based access</li>
+      <li>✅ Secure & user-friendly design</li>
+    </ul>
+     <p><strong>🔧 Tech Stack:</strong> React.js | Node.js | Express.js | MySQL | Nodemailer</p>
+<a href="https://github.com/prachidevkar1/grievance-redressal-system" class="btn">View GitHub Code</a>
+
+  </div>
+</div>
+<!-- Project Approval System Modal -->
+<div id="project-approval-modal" class="modal1">
+  <div class="modal-content1">
+    <span class="close-btn">&times;</span>
+    <h2>Project Approval System</h2>
+    <div class="modal-video">
+      <iframe id="approval-video" 
+              
+              width="100%" height="400" ></iframe>
+    </div>
+
+    <p><strong>🚀 Streamlining project submissions & approvals for students and faculty</strong></p>
+    
+    <ul>
+      <li>✅ Students can submit project details along with synopsis, PPT, and reports</li>
+      <li>✅ Projects routed to respective faculty coordinators (Mini/Major)</li>
+      <li>✅ Faculty can approve/reject projects with feedback</li>
+      <li>✅ Automated email notifications for approvals/rejections</li>
+      <li>✅ Direct upload & download of all project files</li>
+    </ul>
+
+    <p><strong>🔧 Tech Stack:</strong> React.js | Node.js | Express.js | MySQL | Nodemailer | Multer</p>
+    
+  <a href="https://github.com/prachiie2323/PD2025" class="btn" target="_blank">
+   View GitHub Code
+</a>
+
+
+  </div>
+</div>
+
+
+
+
+<section id="positions-of-responsibility" class="section">
+  <h2>Positions of Responsibility</h2>
+  <ul>
+    <li>
+      <img src="images/Aiml.jpg" alt="AIML Club Logo" class="role-logo">
+      <div class="role-text">
+        <strong>AIML Club President</strong>
+        <p>Currently leading workshops, hackathons, and peer learning sessions on AI & ML.</p>
+      </div>
+    </li>
+
+    <li>
+      <img src="images/Iei.jpg" alt="IEI Club Logo" class="role-logo">
+      <div class="role-text">
+        <strong>IEI Secretary</strong>
+        <p>Served as Secretary of the Institution of Engineers – SKN Sinhgad Institute Student Chapter, the multidisciplinary professional body of engineers.</p>
+      </div>
+    </li>
+
+    <li>
+      <img src="images/advik.jpg" alt="Advik Club Logo" class="role-logo">
+      <div class="role-text">
+        <strong>Advik Club Member</strong>
+        <p>Contributed to the college magazine <em>Advik</em> by supporting cultural and technical content creation, editing, and publication activities.</p>
+      </div>
+    </li>
+
+    <li>
+      <img src="images/skn2.jpg" alt="Student Council Logo" class="role-logo">
+      <div class="role-text">
+        <strong>Student Council Member</strong>
+        <p>Represented student body and supported initiatives for academic and extracurricular growth.</p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+
+
+<section id="testimonials" class="section">
+  <h2>Testimonials</h2>
+
+  
+
+    <div class="testimonial-container">
+      <div class="testimonial-card">
+        <img src="images/img1.jpg" alt="Dr. Sameer Katekar">
+        <p>"Prachi demonstrates exceptional dedication, enthusiasm, and a tenacious spirit. She stands out as a talented and disciplined student."</p>
+        <h4>- Dr. Sameer Katekar, SKN Sinhgad COE Pandharpur</h4>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="images/img2.jpg" alt="Dr. Subhash Pingale">
+        <p>"A bright and diligent student with excellent problem-solving capabilities and a professional approach to work."</p>
+        <h4>- Dr. Subhash Pingale, HOD CSE, SKN Sinhgad COE Pandharpur</h4>
+      </div>
+
+      <div class="testimonial-card">
+  <img src="images/vaishnavi.jpg" alt="Vaishnavi Dhawale">
+  <p>"Prachi is a fast learner with a sharp mind, a big heart, and an indelible spirit. She adds value wherever she works."</p>
+  <h4>- Vaishnavi Dhawale</h4>
+  <h5> Team Leader</h5>
+</div>
+
+<div class="testimonial-card">
+  <img src="images/sakshi.jpg" alt="Sakshi Gavali">
+  <p>"Prachi’s contributions and positive attitude make her an asset to any team. She has shown strong leadership and technical skills."</p>
+  <h4>- Sakshi Gavali,Yardi Software, Pune</h4>
+</div>
+
+
+    
+  </div>
+</section> 
+<div id="testimonial-modal" class="testimonial-modal">
+  <div class="testimonial-modal-content">
+    <span id="closeModal" class="close-btn">&times;</span>
+    <div id="modalCard"></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+ <section id="contact" class="section contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+ <textarea id="message" name="message" placeholder="Your Message" rows="5" spellcheck="false"></textarea>
+
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <!-- To display success/error response -->
+  <p id="responseMessage"></p>
+</section>
+
+
+
+
+
+
+  
+
+  <footer>
+    <p>&copy; 2025 Prachi Devkar | All rights reserved.</p>
+  </footer>
+<!-- 
+<script>
+// Lightbox logic
+const thumbnails = document.querySelectorAll(".achievement-thumb");
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const closeBtn = document.querySelector(".close");
+
+if (thumbnails && lightbox && lightboxImg && closeBtn) {
+  thumbnails.forEach(img => {
+    img.addEventListener("click", () => {
+      lightbox.style.display = "block";
+      lightboxImg.src = img.src;
+    });
+  });
+
+  closeBtn.addEventListener("click", () => {
+    lightbox.style.display = "none";
+  });
+
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) {
+      lightbox.style.display = "none";
+    }
+  });
+}
+
+// Show achievement modal
+function showAchievement(imagePath) {
+  const imageDisplay = document.getElementById('achievement-display');
+  const image = document.getElementById('achievement-image');
+
+  // Ensure correct relative path
+  if (!imagePath.startsWith('images/')) {
+    imagePath = 'images/' + imagePath;
+  }
+
+  image.src = imagePath;
+  imageDisplay.classList.remove('hidden');
+}
+
+function closeImage() {
+  const displayDiv = document.getElementById('achievement-display');
+  const image = document.getElementById('achievement-image');
+  displayDiv.classList.add('hidden');
+  image.src = ''; // clear image
+}
+
+// Titles animation
+const titles = ["Software Engineer", "Tech Enthusiast", "Full Stack Developer"];
+const titleElement = document.getElementById("title");
+let index = 0;
+
+function showNextTitle() {
+  if (index >= titles.length) return;
+
+  titleElement.classList.remove("show");
+
+  setTimeout(() => {
+    titleElement.textContent = titles[index];
+    titleElement.classList.add("show");
+    index++;
+    setTimeout(showNextTitle, 2000); // visible time
+  }, 500); // fade duration
+}
+
+showNextTitle();
+
+// Project modal logic
+document.addEventListener("DOMContentLoaded", () => {
+  const grievanceCard = document.getElementById("grievance-project");
+  const modal = document.getElementById("project-modal");
+  const closeModalBtn = modal ? modal.querySelector(".close-btn") : null;
+
+  if (grievanceCard && modal && closeModalBtn) {
+    grievanceCard.addEventListener("click", () => {
+      modal.style.display = "block";
+    });
+
+    closeModalBtn.addEventListener("click", () => {
+      modal.style.display = "none";
+    });
+
+    window.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  }
+});
+</script> -->
+
+
+
+
+
+
+
+
+
+
+<script>
+// function showAchievement(imagePath) {
+//   const imageDisplay = document.getElementById('achievement-display');
+//   const image = document.getElementById('achievement-image');
+//   image.src = imagePath;
+
+//   imageDisplay.classList.remove('hidden');
+// }
+
+
+//   function closeImage() {
+//     const displayDiv = document.getElementById('achievement-display');
+//     const image = document.getElementById('achievement-image');
+//     displayDiv.classList.add('hidden');
+//     image.src = '';
+//   }
+
+
+
+
+
+
+
+// function showAchievement(imagePath) {
+//   const displayDiv = document.getElementById('achievement-display');
+//   const image = document.getElementById('achievement-image');
+//   image.src = imagePath;
+//   displayDiv.style.display = 'flex'; // show modal
+// }
+
+// function closeImage() {
+//   const displayDiv = document.getElementById('achievement-display');
+//   const image = document.getElementById('achievement-image');
+//   displayDiv.style.display = 'none'; // hide modal
+//   image.src = ''; // clear image
+// }
+
+
+
+
+
+function showAchievement(imagePath) {
+  const displayDiv = document.getElementById('achievement-display');
+  const image = document.getElementById('achievement-image');
+  image.src = imagePath;
+  displayDiv.classList.add('show'); // show modal
+}
+
+function closeImage() {
+  const displayDiv = document.getElementById('achievement-display');
+  const image = document.getElementById('achievement-image');
+  displayDiv.classList.remove('show'); // hide modal
+  image.src = ''; // clear image
+}
+
+
+    
+
+  // // Titles animation
+  // const titles = ["Software Engineer", "Tech Enthusiast", "Full Stack Developer"];
+  // const titleElement = document.getElementById("title");
+  // let index = 0;
+
+  // function showNextTitle() {
+  //   if (index >= titles.length) return;
+
+  //   titleElement.classList.remove("show");
+
+  //   setTimeout(() => {
+  //     titleElement.textContent = titles[index];
+  //     titleElement.classList.add("show");
+  //     index++;
+  //     setTimeout(showNextTitle, 2000);
+  //   }, 500);
+  // }
+
+  // showNextTitle();
+
+
+document.getElementById("contactForm").addEventListener("submit", async function (e) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
+
+  try {
+    const response = await fetch("http://localhost:5000/send-email", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, email, message }),
+    });
+
+    const result = await response.json();
+
+    // Show popup message here
+    const responseMessage = document.getElementById("responseMessage");
+    responseMessage.textContent = result.message;   // or "✅ Message sent successfully!"
+    responseMessage.style.color = "green";          // success
+    responseMessage.style.opacity = "1";            // fade in
+
+    // Hide after 4 seconds
+    setTimeout(() => {
+      responseMessage.style.opacity = "0";
+    }, 4000);
+
+    // Optional: clear form
+    document.getElementById("contactForm").reset();
+
+  } catch (err) {
+    const responseMessage = document.getElementById("responseMessage");
+    responseMessage.textContent = "❌ Something went wrong. Try again!";
+    responseMessage.style.color = "red";
+    responseMessage.style.opacity = "1";
+    setTimeout(() => {
+      responseMessage.style.opacity = "0";
+    }, 4000);
+  }
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const grievanceCard = document.getElementById("grievance-project");
+  const modal = document.getElementById("project-modal");
+  const closeModalBtn = modal ? modal.querySelector(".close-btn") : null;
+  const video = document.getElementById("grievance-video");
+
+  const approvalCard = document.getElementById("approval-project");
+  const approvalModal = document.getElementById("project-approval-modal");
+  const approvalClose = approvalModal ? approvalModal.querySelector(".close-btn") : null;
+  const approvalVideo = document.getElementById("approval-video");
+
+  // Grievance Project
+  if (grievanceCard && modal && closeModalBtn) {
+    grievanceCard.addEventListener("click", () => {
+      modal.style.display = "flex";
+      if (video) {
+        video.src = "https://drive.google.com/file/d/1OpDyg6YicHkh77XHPSK6s2vz0XXRhyBe/preview";
+      }
+    });
+
+    closeModalBtn.addEventListener("click", () => {
+      modal.style.display = "none";
+      if (video) video.src = "";
+    });
+
+    window.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.style.display = "none";
+        if (video) video.src = "";
+      }
+    });
+  }
+
+  // Approval Project
+  if (approvalCard && approvalModal && approvalClose) {
+    approvalCard.addEventListener("click", () => {
+      approvalModal.style.display = "flex";
+      if (approvalVideo) {
+        approvalVideo.src ="https://drive.google.com/file/d/1-DG-rD5PWf0X7D-RZOzonmBYKZ87UL3G/preview" ;
+      }
+    });
+
+    approvalClose.addEventListener("click", () => {
+      approvalModal.style.display = "none";
+      if (approvalVideo) approvalVideo.src = "";
+    });
+
+    window.addEventListener("click", (e) => {
+      if (e.target === approvalModal) {
+        approvalModal.style.display = "none";
+        if (approvalVideo) approvalVideo.src = "";
+      }
+    });
+  }
+});
+
+
+
+  // Images for Scholastic Eminence
+// const eminenceImages = [
+//   "images/poster1.jpg",  // University Rankers
+//   "images/poster2.jpg",  // Top SGPA
+//   "images/poster3.jpg"   // Academic Distinction
+// ];
+
+// let eminenceIndex = 0;
+
+// function showEminence(index) {
+//   eminenceIndex = index;
+//   const displayDiv = document.getElementById("eminence-display");
+//   const image = document.getElementById("eminence-image");
+//   image.src = eminenceImages[index];
+//   displayDiv.style.display = "flex";
+// }
+
+// function closeEminence() {
+//   document.getElementById("eminence-display").style.display = "none";
+// }
+
+// function nextEminence() {
+//   eminenceIndex = (eminenceIndex + 1) % eminenceImages.length;
+//   showEminence(eminenceIndex);
+// }
+
+// function prevEminence() {
+//   eminenceIndex = (eminenceIndex - 1 + eminenceImages.length) % eminenceImages.length;
+//   showEminence(eminenceIndex);
+// }
+const eminenceImages = [
+  "images/poster1.jpg",
+  "images/poster2.jpg",
+  "images/poster3.jpg",
+  "images/poster4.jpg"
+
+];
+let currentIndex = 0;
+
+function openEminenceGallery() {
+  document.getElementById("eminence-modal").style.display = "flex";
+  document.getElementById("eminence-image").src = eminenceImages[currentIndex];
+}
+
+function closeEminenceGallery() {
+  document.getElementById("eminence-modal").style.display = "none";
+}
+
+function nextEminence() {
+  currentIndex = (currentIndex + 1) % eminenceImages.length;
+  document.getElementById("eminence-image").src = eminenceImages[currentIndex];
+}
+
+function prevEminence() {
+  currentIndex = (currentIndex - 1 + eminenceImages.length) % eminenceImages.length;
+  document.getElementById("eminence-image").src = eminenceImages[currentIndex];
+}
+
+// For roles animation
+ const roles = document.querySelectorAll('.role');
+let index = 0;
+
+function showRole() {
+  roles.forEach(role => role.classList.remove('show'));
+  roles[index].classList.add('show');
+  index = (index + 1) % roles.length;
+}
+
+showRole();
+setInterval(showRole, 2000);
+
+
+
+
+
+
+
+
+
+const modal = document.getElementById('testimonial-modal');
+const modalCard = document.getElementById('modalCard');
+const closeBtn = document.getElementById('closeModal');
+
+document.querySelectorAll('.testimonial-card').forEach(card => {
+  card.addEventListener('click', () => {
+    modalCard.innerHTML = card.outerHTML; // copy clicked card exactly
+    modal.classList.add('show');
+  });
+});
+
+closeBtn.addEventListener('click', () => {
+  modal.classList.remove('show');
+});
+
+modal.addEventListener('click', (e) => {
+  if (e.target === modal) modal.classList.remove('show');
+});
+
+
+
+
+
+
+
+document.getElementById("modalCard").addEventListener("click", function () {
+  document.querySelector(".testimonial-modal-content").classList.toggle("expanded");
+});
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+
+
+</html>
